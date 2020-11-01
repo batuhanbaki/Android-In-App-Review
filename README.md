@@ -1,7 +1,7 @@
 # Android-In-App-Review
 Basic android in app review example
 
-#Nasıl Entegre Ederiz
+# Nasıl Entegre Ederiz
 #### build.gradle(app düzeyi) Impelement
 ``` implementation 'com.google.android.play:core:1.8.3' ```
 <br><br>
