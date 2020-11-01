@@ -10,6 +10,7 @@ int girissayisi;
 ReviewInfo reviewInfo;
 ReviewManager reviewManager;
 Giriş Sayısını Locale Yazan Classlar
+{
 private int getEntrainceInt()
 {
     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
@@ -22,6 +23,7 @@ private void setEntrainceInt()
     SharedPreferences.Editor editor = preferences.edit();
     editor.putInt("girisayisi",(girissayisi+1));
     editor.commit();
+}
 }
 Oylamayı Check Eden Classlar
 private Boolean getVoteUs()
