@@ -3,7 +3,9 @@ Basic android in app review example
 
 # Nasıl Entegre Ederiz
 #### build.gradle(app düzeyi) Impelement
-``` implementation 'com.google.android.play:core:1.8.3' ```
+``` 
+implementation 'com.google.android.play:core:1.8.3' 
+```
 <br><br>
 Bu noktadan sonra biraz süslememiz gerekecek. Google kullanıcı deneyimini önemsediği için giriş sayıları vb dataları baz alan bir yapı oluşturdum ben. Bu localde tuttuğum datalara göre dialog gösteriyorum.
 
