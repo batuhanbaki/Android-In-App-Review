@@ -6,7 +6,7 @@ Basic android in app review example
 ``` 
 implementation 'com.google.android.play:core:1.8.3' 
 ```
-<br><br>
+
 Bu noktadan sonra biraz süslememiz gerekecek. Google kullanıcı deneyimini önemsediği için giriş sayıları vb dataları baz alan bir yapı oluşturdum ben. Bu localde tuttuğum datalara göre dialog gösteriyorum.
 
 #### Tanımlamalar
