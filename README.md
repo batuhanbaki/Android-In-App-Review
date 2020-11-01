@@ -2,19 +2,19 @@
 Basic android in app review example
 
 #Nasıl Entegre Ederiz
-###### build.gradle(app düzeyi) Impelement
+#### build.gradle(app düzeyi) Impelement
 ``` implementation 'com.google.android.play:core:1.8.3' ```
 <br><br>
 Bu noktadan sonra biraz süslememiz gerekecek. Google kullanıcı deneyimini önemsediği için giriş sayıları vb dataları baz alan bir yapı oluşturdum ben. Bu localde tuttuğum datalara göre dialog gösteriyorum.
 
-####### Tanımlamalar
+#### Tanımlamalar
 ```
 int girissayisi;
 ReviewInfo reviewInfo;
 ReviewManager reviewManager;
 ```
 
-###### Giriş Sayısını Locale Yazan Classlar
+#### Giriş Sayısını Locale Yazan Classlar
 ```
 private int getEntrainceInt()
 {
@@ -99,7 +99,7 @@ private void reviewAPICall()
 }
 ```
 
-###### Giriş sayısını, sdk versiyonunu ve oylama durumunu kontrol ettiğimiz classımız
+#### Giriş sayısını, sdk versiyonunu ve oylama durumunu kontrol ettiğimiz classımız
 ```
 private void setInAppReviewDeclaration()
 {
@@ -125,7 +125,7 @@ private void setInAppReviewDeclaration()
     }
 }
 ```
-###### En son OnCreate’de Topluyoruz
+#### En son OnCreate’de Topluyoruz
 ```
 @Override
 protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -135,5 +135,5 @@ protected void onCreate(@Nullable Bundle savedInstanceState) {
 }
 ```
 
-#### Ve Sonuç
+#### Sonuç
 <img src="https://miro.medium.com/max/700/1*WuCl_lf6EUQjVGfwsMtNGA.png">
